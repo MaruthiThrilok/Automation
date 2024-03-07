@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2024-03-07 11:52:05</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>19ef0de985574bffaf026d11bf3ffb9c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Test case Started</Name>
+    <Description>Test Case: TC_01 is Started</Description>
+    <StartTime>2024-03-07 11:52:05</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>b2a500dcd4034ed58532ed948e137895</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>The retrieve DataTable.Value operation failed. The &lt;Keywords&gt; column does not exist.</Name>
+    <ErrorText>The retrieve DataTable.Value operation failed. The &lt;Keywords&gt; column does not exist.</ErrorText>
+    <Description>The retrieve DataTable.Value operation failed. The &amp;lt;Keywords&amp;gt; column does not exist.&lt;BR/&gt;Line (10): &amp;quot;Select Case Datatable.Value(&amp;quot;Keywords&amp;quot;,&amp;quot;TCases&amp;quot;)&amp;quot;. </Description>
+    <StartTime>2024-03-07 11:52:31</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[AutoSales [AutoSales]]]></ModuleName>
+          <FileName><![CDATA[AutoSales [AutoSales]]]></FileName>
+          <Language><![CDATA[AutoSales [AutoSales]]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Select Case Datatable.Value("Keywords","TCases")]]></Scripts>
+          <LineNo><![CDATA[10]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>b958f08e234746a2a2716a7bccbb318f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\8230725e-0cd2-4e75-aa7a-9a7882840973.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2024-03-07 11:55:01</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>395c4ab2682a43e580be27c9f3abf702</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AutoSales [AutoSales]</Name>
+    <Description />
+    <StartTime>2024-03-07 11:52:05</StartTime>
+    <Duration>176</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>68dabdcb45b940639c3086e2b343bb9c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2024-03-07 11:55:01</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>395c4ab2682a43e580be27c9f3abf702</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2024-03-07 11:52:05</StartTime>
+    <Duration>176</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>aa162a999fdd480f96624755948479cf</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2024-03-07 11:52:05</StartTime>
+    <Duration>176</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>955186d8e5fd4af3a4a6a11c0ef0395b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2024-03-07 11:55:01</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>7dc514e223b94557b80d44d9c6eebc06</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest1</Name>
+    <ToolName>OpenText UFT One</ToolName>
+    <ToolVersion>23.4</ToolVersion>
+    <ToolVersionStringLiteral>23.4</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2024-03-07 11:52:04</StartTime>
+    <Duration>177</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2d6ce0994eb2403faf741b2619cc5cdb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (India)</Locale>
+      <User>SUYATI\gthriloknath</User>
+      <CpuInfo>12th Gen Intel(R) Core(TM) i5-1235U</CpuInfo>
+      <NumberOfCores>12</NumberOfCores>
+      <TotalMemory>16069</TotalMemory>
+      <HostName>suyati.local\SUYCOKHWLAP369</HostName>
+      <OSInfo>Windows 10 22H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res3</ResultName>
+    <RunStartTime>2024-03-07 11:52:04</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>OpenText UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>23.4</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>23.4</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

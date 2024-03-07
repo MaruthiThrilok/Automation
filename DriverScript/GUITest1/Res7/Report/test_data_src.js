@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'D:\\Automation\\DriverScript\\GUITest1\\Res7',namePairs:[]}]};

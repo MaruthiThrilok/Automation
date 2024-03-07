@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2024-03-07 11:56:24</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>61366392fc724536bdac6bd386005b65</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Test case Started</Name>
+    <Description>Test Case: TC_01 is Started</Description>
+    <StartTime>2024-03-07 11:56:24</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>30cd3c54b8644a2693b22fdc683c1657</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>Run Error</Name>
+    <Description>General run error.&lt;BR/&gt;Line (12): &amp;quot;Datatable(&amp;quot;Result&amp;quot;,&amp;quot;TSteps&amp;quot;) = fn_LaunchandLogin(&amp;quot;DataInput&amp;quot;,&amp;quot;TSteps&amp;quot;)&amp;quot;. </Description>
+    <StartTime>2024-03-07 11:56:25</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[AutoSales [AutoSales]]]></ModuleName>
+          <FileName><![CDATA[AutoSales [AutoSales]]]></FileName>
+          <Language><![CDATA[AutoSales [AutoSales]]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Datatable("Result","TSteps") = fn_LaunchandLogin("DataInput","TSteps")]]></Scripts>
+          <LineNo><![CDATA[12]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>a8157676adb141ce8650f3bbc33ca8fa</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\3a9a85a0-8483-4f08-ac99-e07054ae0ba4.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2024-03-07 11:58:07</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>87117e4cd9564724bed26c9dc48df221</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AutoSales [AutoSales]</Name>
+    <Description />
+    <StartTime>2024-03-07 11:56:25</StartTime>
+    <Duration>102</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>d9045379ebb4463b8785f49a187b2154</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2024-03-07 11:58:07</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>87117e4cd9564724bed26c9dc48df221</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2024-03-07 11:56:24</StartTime>
+    <Duration>103</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>560ee15a34a04d05a8fc69dd508c81ee</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2024-03-07 11:56:24</StartTime>
+    <Duration>103</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>f6703005ee5f4e72ba0f494ce5df6c2d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2024-03-07 11:58:07</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>1ad1a70e2c694192b52182183226a329</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest1</Name>
+    <ToolName>OpenText UFT One</ToolName>
+    <ToolVersion>23.4</ToolVersion>
+    <ToolVersionStringLiteral>23.4</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2024-03-07 11:56:23</StartTime>
+    <Duration>104</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2b11f406b57943b89917b59af2a220ce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (India)</Locale>
+      <User>SUYATI\gthriloknath</User>
+      <CpuInfo>12th Gen Intel(R) Core(TM) i5-1235U</CpuInfo>
+      <NumberOfCores>12</NumberOfCores>
+      <TotalMemory>16069</TotalMemory>
+      <HostName>suyati.local\SUYCOKHWLAP369</HostName>
+      <OSInfo>Windows 10 22H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res4</ResultName>
+    <RunStartTime>2024-03-07 11:56:23</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>OpenText UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>23.4</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>23.4</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
